@@ -19,8 +19,87 @@
     </nav>
     <body>
       <h2>Educación</h2>
+      <table border="1px">
+        <thead>
+          <tr>
+            <td><strong>Estudio</strong></td>
+            <td><strong>Año</strong></td>
+            <td><strong>Institución</strong></td>
+            <td><strong>Lugar</strong></td>
+            <td><strong>¿Culminó?</strong></td>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Desarrollador Web</td>
+            <td>2018</td>
+            <td>NextU</td>
+            <td>Online</td>
+            <td>Cursando</td>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Lic. Diseño Industrial</td>
+            <td>2018</td>
+            <td>Tecnológico de Monterrey</td>
+            <td>Chihuahua, México</td>
+            <td>Terminado</td>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Green Belt Lean Six Sigma</td>
+            <td>2017</td>
+            <td>Tecnológico de Monterrey</td>
+            <td>Chihuahua, México</td>
+            <td>Terminado</td>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Verano Internacional</td>
+            <td>2017</td>
+            <td>Universidad de Burgos</td>
+            <td>Burgos, España</td>
+            <td>Terminado</td>
+        </tbody>
+      </table>
+      <h3>Agrregar Estudios</h3>
+      <form autocomplete="on" name="Agregar estudios">
+        <label for="Estudio">Estudio</label>
+        <textarea name=”area_texto” rows=”8” cols=”10”></textarea>
+        <br/>
+        <br/>
+        <label for="Año">Año</label>
+        <select>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+          <option>2010</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="Institución">Institución</label>
+        <input type="text" required></input>
+        <br/>
+        <br/>
+        <label for="Lugar">Lugar</label>
+        <textarea name=”area_texto” rows=”8” cols=”10”></textarea>
+        <br/>
+        <br/>
+        <label for="¿Culminó?">¿Culminó?</label>
+        <select>
+          <option>Cursando</option>
+          <option>Terminado</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="submit" value="Enviar"></input>
+      </form>
     </body>
     <footer>
-      <p>barcelata.brenda@gmail.com | +52 1 (614) 345 90 10 | Behance: be.net/brendabbr</p>
+      <p><a href="mailto:barcelata.brenda@gmail.com?subject=Retro">barcelata.brenda@gmail.com</a> | +52 1 (614) 345 90 10 | <a href="https://www.behance.net/brendabbr" target="_blank">Behance</a></p>
     </footer>
   </html>
